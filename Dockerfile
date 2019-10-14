@@ -7,6 +7,7 @@ WORKDIR /root
 
 ADD install-pdk-release.sh .
 ADD pdk-release.env .
+ADD run-task.sh .
 
 RUN ["./install-pdk-release.sh"]
 
